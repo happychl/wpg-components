@@ -1,6 +1,6 @@
 # wpg-tree
 
-> A tree component base Vue.component
+> A tree component based on Vue.
 
 ## Build Setup
 
@@ -15,4 +15,12 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Document
+
+封装自element-ui的树组件，添加其他扩展。
+
+基础功能使用文档参见：https://element.eleme.io/#/zh-CN/component/tree
+
+扩展功能：
+1. 图标扩展，每项尾部可添加自定义图标，数据项添加icon字段，使用方法参见App.vue内数据定义;
+2. 主题扩展，添加多种主题，展示样式做相应调整。
