@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a-year-picker v-model="year" size="large"/>
+    <a-year-picker v-model="year" size="large" placeholder="请选择年份"/>
   </div>
 </template>
 

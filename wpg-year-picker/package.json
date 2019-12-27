@@ -1,7 +1,7 @@
 {
   "name": "ant-year-picker",
   "description": "A yearPicker component base on ant design vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "陈亨陵 <879614206@qq.com>",
   "license": "MIT",
   "private": false,
