@@ -1,5 +1,5 @@
 <template>
-  <a-date-picker v-bind="$props" mode="year" :open="selfOpen" format="YYYY"
+  <a-date-picker v-bind="[$props, $slots]" mode="year" :open="selfOpen" format="YYYY"
                  @panelChange="handlePanelChange"
                  @openChange="handleOpenChange" @change="handleChange"/>
 </template>
