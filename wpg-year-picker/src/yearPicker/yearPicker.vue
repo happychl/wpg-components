@@ -19,12 +19,14 @@
             handlePanelChange(val) {
                 this.selfOpen = false;
                 this.$emit('input', val);
+                this.$emit('change', val);
             },
             handleOpenChange(val) {
                 this.selfOpen = val;
             },
             handleChange(val) {
                 this.$emit('input', null);
+                this.$emit('change', null);
             }
         }
     };
