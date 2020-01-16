@@ -1,15 +1,13 @@
 <template>
-  <a-date-picker v-bind="[$props, $slots]" mode="year" :open="selfOpen" format="YYYY"
+  <a-date-picker v-bind="[$attrs, $slots]" mode="year" :open="selfOpen" format="YYYY"
                  @panelChange="handlePanelChange"
                  @openChange="handleOpenChange" @change="handleChange"/>
 </template>
 
 <script>
-    import {DatePicker} from 'ant-design-vue';
-
     export default {
         name: "AYearPicker",
-        props: DatePicker.props,
+        inheritAttrs: false,
         data() {
             return {
                 selfOpen: false
@@ -25,13 +23,9 @@
                 this.selfOpen = val;
             },
             handleChange(val) {
-                this.$emit('input', null);
-                this.$emit('change', null);
+                this.$emit('input', val);
+                this.$emit('change', val);
             }
         }
     };
 </script>
-
-<style scoped>
-
-</style>
