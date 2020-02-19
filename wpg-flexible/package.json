@@ -1,0 +1,14 @@
+{
+  "name": "wpg-flexible",
+  "version": "0.0.1",
+  "description": "基于lib-flexible的移动端适配解决方案，取消大屏限制",
+  "main": "flexible.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "适配"
+  ],
+  "author": "",
+  "license": "ISC"
+}
